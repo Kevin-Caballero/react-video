@@ -3,9 +3,9 @@ import '../assets/styles/components/Header.scss'
 
 const Header = () => (
     <header className="header">
-        <img src="../assets/img/logo.png" alt="logo" className="header_img"/>
-        <div className="header_menu">
-            <div className="header_menu-profile">
+        <img src="../../assets/img/logo.png" alt="logo" className="header__img"/>
+        <div className="header__menu">
+            <div className="header__menu--profile">
                 <img src="../assets/img/user.png" alt=""/>
                 <p>Perfil</p>
             </div>
